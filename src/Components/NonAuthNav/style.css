@@ -1,0 +1,249 @@
+body {
+    padding-bottom: 0; margin: 0;
+}
+
+.percent-container{
+    color: white;
+    background-color: black;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-x{
+        display: flex;
+        justify-content: end;
+    }
+
+    a{
+        color: white;
+        padding-left: 5px;
+    }
+
+    .container-x{
+        display: flex;
+        justify-content: end;
+        gap: 50px;
+    }
+}
+
+.subNav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: white;
+    padding: 5px;
+    border-radius: 1px;
+    height: 50px;
+}
+
+.subsub-con{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding-right: 40px;
+    margin-left:  123px;
+    
+}
+
+.logo-nav-container{
+    display: flex;
+    align-items: center;
+}
+
+.logo-nav-container h1{
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.main-nav-container{
+    width: 50%;
+    margin-left: 60px;
+    gap: 40px;
+    /* margin-right: 250px;
+    font-size: 12px;
+   
+    margin-left: 40px; */
+    
+
+}
+
+
+
+.main-nav-container ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-right: 50px;
+    padding: 30px;
+    margin-right: 10px;
+}
+
+.main-nav-container li{
+    font-size: 11px;
+}
+
+.main-nav-container ul a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav-container ul a:hover{
+    border-bottom: 2px solid black;
+}
+
+.serach-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 50px;
+   
+
+   .ci{
+    font-size: 15px;
+   }
+   
+   input{
+    width: 600px;
+    height: 25px;
+    border: none;
+    color: rgba(128, 128, 128, 0.15);
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.15);
+    padding-left: 5px;
+    margin-right: 250px;
+   }
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    font-size: 20px;
+
+    
+       .search{
+        display: none;
+        /* margin-right: 70px; */
+        /* font-size: 25px; */
+        /* font-weight: 900; */
+    }
+
+   
+}
+
+.con{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    gap: 15px;
+    margin-right: 128px;
+}
+
+/* .shoppingcart-container, .profile-container{
+    display: flex;
+    margin-right: 105px;
+    padding: px;
+} */
+
+
+.menu{
+    display: none;
+}
+
+ @media screen and (max-width: 600px) {
+
+     /* .percent-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        width: 200%;
+        font-size: 11px;
+    }
+    .subNav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 200%;
+        background-color: rgba(128, 128, 128, 0.15);
+    }
+
+    .logo-nav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin-top: 0px;
+        margin-right: 65px;
+
+        .menu{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 15px;
+            margin-left: 20px;
+            display: flex;
+            font-size: 20px; */
+            /* font-weight: 900;        } */
+    /* }
+
+    .logo-nav-container h1{
+        font-size: 23px;
+    }
+
+    .icon{
+        display: flex;
+        margin-right: 15px;
+        
+
+    } */
+
+    /* .search {
+        background-color: aqua;
+        display: flex;
+        font-size: 25px;
+       
+    }
+ 
+    .shoppingcart-container .profile-container{
+        display: flex;
+        width: 50%;
+        padding-right: 30ppx;
+    } */
+
+    /* .subNav-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+        width: 100%;
+    }
+    .logo-nav-container{
+        display: flex;
+        width: 80%;
+
+        .menu{
+            display: flex;
+        }
+    }
+    .main-nav-container{
+        display: none;
+    }
+
+    .serach-containe{
+        display: none;
+    } */
+/* 
+       .serach-container{
+        display: none;
+    }
+    .main-nav-container{ 
+        display: none;
+    } */
+
+ }

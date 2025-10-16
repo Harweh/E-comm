@@ -1,0 +1,80 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+
+.parent-new-arivalProd{
+text-align: center;
+/* box-shadow:
+0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+0 12.5px 10px rgba(0, 0, 0, 0.06),
+0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+0 100px 80px rgba(0, 0, 0, 0.12); */
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 15px;
+}
+
+.parent-new-arivalProd h1{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 90px;
+font-size: 30px;
+margin-top: 15px;
+font-weight: 900;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.newClothes-Con{
+    display: flex;
+    justify-content: center;
+    width:80%;
+}
+
+.newClothes-Con img{
+    width: 420px;
+    /* margin: 20px; */
+    margin-left: px;
+}
+
+.T-shirt{
+    width: 20%;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: baseline;
+}
+
+
+ .userNewarrival-prodt{
+    display: flex;
+    justify-content: center;
+
+ } 
+
