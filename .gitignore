@@ -78,3 +78,128 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
  } 
 
+
+
+
+
+
+
+
+.parent-new-arivalProd{
+    /* width: 100%; */
+    background-color: brown;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+/* .parent-new-arivalProd h1{
+    display: flex;
+    justify-content: center;
+} */
+
+.userNewarrival-prodt{
+    width: 80%;
+    height: 100%;
+    background-color: aqua;
+    /* margin-top: 1px;
+    margin-left: 45px; */
+
+    span{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+.userNewarrival-prodt .newA{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+}
+
+.userNewarrival-prodt span{
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.newClothes-Con{
+    /* background-color: blue; */
+    margin-bottom: 30px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    /* align-items: ; */
+    /* flex-wrap: wrap; */
+    /* gap: 25px; */
+    flex: 1;
+}
+
+.img-con{
+    height: auto;
+    width: 320px;
+    /* background-color: chartreuse; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    .T-shirt{
+        margin-left: 40px;
+    }
+    .T-jean{
+        margin-left: 40px;
+
+    }
+    p{
+        font-size: x-large;
+        font-weight: 950;
+        color: rgba(128, 128, 128, 0.9);
+    }
+}
+
+
+.img-cart{
+    height: auto;
+    /* background-color: lavenderblush; */
+    margin-top: 10px;
+
+    img{
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+    }
+}
+
+.view{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+
+  
+    button{
+        background-color: white;
+        /* color: black; */
+        margin: 10px;
+        padding: 10px;
+        padding-bottom: 30px;
+        width: 180px;
+        height: 10px;
+        border: 1pxx solid rgba(128, 128, 128, 0.015);
+        border-radius: 100px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+
+        /* box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0.12); */
+    }
+}
+

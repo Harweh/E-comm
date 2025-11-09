@@ -66,34 +66,37 @@ const Homepage = () => {
             <h1> NEW ARRIVALS</h1>
                 <div className="userNewarrival-prodt">
 
-                <div className="newClothes-Con">
-                    <div className=''> 
-                    <img src={shirt} alt="" />
-                    <div className="T-shirt">T-shirt with trap details</div>
-                    </div>
+                    {/* <h1>welcome</h1> */}
 
-                    <div className=''> 
-                    <img src={shirt} alt="" />
-                    <div className="T-shirt">T-shirt with trap details</div>
-                    </div>
+                    <div className="newClothes-Con">
 
-                    <div className=''> 
-                    <img src={jean} alt="" />
-                    <div className="T-jean">Skinny Fit Jeans</div>
-                    </div>
+                        <div className=''> 
+                        <img src={shirt} alt="" />
+                        <div className="T-shirt">T-shirt with trap details</div>
+                        </div>
 
-                    <div className=''> 
-                    <img src={shirt} alt="" />
-                    <div className="T-shirt">T-shirt with trap details</div>
+                        <div className=''> 
+                        <img src={shirt} alt="" />
+                        <div className="T-shirt">T-shirt with trap details</div>
+                        </div>
+
+                        <div className=''> 
+                        <img src={jean} alt="" />
+                        <div className="T-shirt">Skinny Fit Jeans</div>
+                        </div>
+
+                        <div className=''> 
+                        <img src={shirt} alt="" />
+                        <div className="T-shirt">T-shirt with trap details</div>
+                        </div>
 
                     </div>
-                </div>
 
                 </div>
 
 
                 <div className='view'>
-                    {/* <button onClick={handleData}>View All</button> */}
+                    <button>View All</button>
                 </div>
 
             </div>

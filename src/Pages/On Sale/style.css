@@ -1,0 +1,48 @@
+body{
+    padding: 0; margin: 0;
+}
+.main-con{
+    width: 82%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    margin-left: 198px;
+}
+
+.submain-con{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.semi-con{
+    width: 50%;
+    background-color: antiquewhite;
+    height: 500px;
+}
+
+.link-con, ul, li{
+    display: flex;
+    font-size: 12px;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.link-con ul a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+.link-con ul a:hover{
+    border-bottom: 2px solid black;
+}
+
+.semi-con1{
+    width: 50%;
+    background-color: blueviolet;
+    height: 500px;
+}
